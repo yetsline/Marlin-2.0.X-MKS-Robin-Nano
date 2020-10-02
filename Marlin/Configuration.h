@@ -59,7 +59,7 @@
 //===========================================================================
 
 // Core XY
-//#define SAPPHIRE_PRO
+#define SAPPHIRE_PRO
 //#define SAPPHIRE_PLUS
 
 // Cartesian
@@ -670,7 +670,7 @@
 #ifdef CUSTOM_TEMP_SENSOR_0
   #define TEMP_SENSOR_0 CUSTOM_TEMP_SENSOR_0
 #else
-  #define TEMP_SENSOR_0 1
+  #define TEMP_SENSOR_0 5
 #endif
 #ifdef CUSTOM_TEMP_SENSOR_1
   #define TEMP_SENSOR_1 CUSTOM_TEMP_SENSOR_1
